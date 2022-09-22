@@ -19,14 +19,18 @@ final class SignUpViewController: UIViewController {
     
     // MARK: - IBActions
     @IBAction func didTapSignUp(_ sender: Any) {
-        let emailEmpty = true
-        
+//        let emailEmpty = true
+//        
 //        if emailEmpty {
 //            self.email.setupErrorStyle()
 //        } else {
 //            self.email.setupViewStyle()
 //        }
         
+        
+        
+        var modal = ModalHelper.createSimpleMoodal()
+        self.present(modal, animated: true)
         
     }
     

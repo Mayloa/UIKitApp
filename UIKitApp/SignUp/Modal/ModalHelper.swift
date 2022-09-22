@@ -10,9 +10,9 @@ import UIKit
 
 class ModalHelper{
     
-    func createSimpleMoodal() -> SuccessModal {
+    static func createSimpleMoodal() -> SuccessModal {
         
-        let storboard  = UIStoryboard(name: "Main", bundle: .main)
+        let storboard  = UIStoryboard(name: "SignUp", bundle: .main)
         let modal = storboard.instantiateViewController(identifier: "SuccessModal") as!  SuccessModal
         return modal
     }

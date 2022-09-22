@@ -128,7 +128,7 @@ Register Now!</string>
         <!--Success Modal-->
         <scene sceneID="hzN-5a-XZg">
             <objects>
-                <viewController storyboardIdentifier="SuccessModal" id="0xc-fI-biy" customClass="SuccessModal" customModule="UIKitApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SuccessModal" modalTransitionStyle="crossDissolve" modalPresentationStyle="overFullScreen" id="0xc-fI-biy" customClass="SuccessModal" customModule="UIKitApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7NP-9M-JON">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

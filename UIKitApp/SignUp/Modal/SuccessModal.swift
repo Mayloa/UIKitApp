@@ -12,7 +12,12 @@ class SuccessModal: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        _ = Timer.scheduledTimer(timeInterval: 1.5, target: self, selector: #selector(ir_a_Login), userInfo: nil, repeats: false)
+    }
+    @objc func ir_a_Login()
+    {
+
+        self.dismiss(animated: true, completion: nil)
     }
     
 
