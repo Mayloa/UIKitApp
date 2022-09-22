@@ -21,11 +21,13 @@ final class SignUpViewController: UIViewController {
     @IBAction func didTapSignUp(_ sender: Any) {
         let emailEmpty = true
         
-        if emailEmpty {
-            self.email.setupErrorStyle()
-        } else {
-            self.email.setupViewStyle()
-        }
+//        if emailEmpty {
+//            self.email.setupErrorStyle()
+//        } else {
+//            self.email.setupViewStyle()
+//        }
+        
+        
     }
     
     @IBAction func didTapSignIn(_ sender: Any) {
