@@ -9,17 +9,26 @@ import UIKit
 
 final class SignUpViewController: UIViewController {
 
+    @IBOutlet weak var email: PrimaryTextField!
+    @IBOutlet weak var fullName: PrimaryTextField!
+    @IBOutlet weak var password: PrimaryTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     // MARK: - IBActions
     @IBAction func didTapSignUp(_ sender: Any) {
+        let emailEmpty = true
         
+        if emailEmpty {
+            self.email.setupErrorStyle()
+        } else {
+            self.email.setupViewStyle()
+        }
     }
     
     @IBAction func didTapSignIn(_ sender: Any) {
-        
     }
 }
 

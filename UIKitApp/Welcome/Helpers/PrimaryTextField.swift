@@ -33,4 +33,9 @@ extension PrimaryTextField {
         layer.borderWidth = 1
         layer.borderColor = CustomColor.border.value.cgColor
     }
+    
+    public func setupErrorStyle() {
+        self.layer.borderColor = UIColor.red.cgColor
+        self.layer.borderWidth = 1
+    }
 }
